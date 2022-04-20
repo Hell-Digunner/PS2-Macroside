@@ -1,4 +1,4 @@
-; rc2.0.2 (2022.4.17)
+; rc2.0.3 (2022.4.17)
 
 ; Autoexec --------------------------------------------------------------------
 
@@ -32,7 +32,7 @@ TrayTip()
 ; Functions --------------------------------------------------------------------
 
 TrayTip() {
-	msg := "Leave Squad Macro is running"
+	msg := "Macroside is running"
 	msg .= (A_IsAdmin) ? : " in basic mode"
 	TrayTip, , % msg, 1, 0x10
 	Sleep, 3000
